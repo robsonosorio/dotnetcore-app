@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Digital-Innovation-One\\EntityFramework\\cursoMVC\\cursoMVC\\cursoMVC.csproj": {}
+    "C:\\GitHub\\Digital-Innovation-One\\cursoMVC\\cursoMVC\\cursoMVC.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Digital-Innovation-One\\EntityFramework\\cursoMVC\\cursoMVC\\cursoMVC.csproj": {
+    "C:\\GitHub\\Digital-Innovation-One\\cursoMVC\\cursoMVC\\cursoMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Digital-Innovation-One\\EntityFramework\\cursoMVC\\cursoMVC\\cursoMVC.csproj",
+        "projectUniqueName": "C:\\GitHub\\Digital-Innovation-One\\cursoMVC\\cursoMVC\\cursoMVC.csproj",
         "projectName": "cursoMVC",
-        "projectPath": "C:\\GitHub\\Digital-Innovation-One\\EntityFramework\\cursoMVC\\cursoMVC\\cursoMVC.csproj",
+        "projectPath": "C:\\GitHub\\Digital-Innovation-One\\cursoMVC\\cursoMVC\\cursoMVC.csproj",
         "packagesPath": "C:\\Users\\robso\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Digital-Innovation-One\\EntityFramework\\cursoMVC\\cursoMVC\\obj\\",
+        "outputPath": "C:\\GitHub\\Digital-Innovation-One\\cursoMVC\\cursoMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,18 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
