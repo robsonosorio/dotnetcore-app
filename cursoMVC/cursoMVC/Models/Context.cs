@@ -10,7 +10,8 @@ namespace cursoMVC.Models
     public class Context : DbContext
     {
         // determina ao entity que existira uma categoria
-        public DbSet<Categorias> Categorias { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
         //sobescreve metodo do Entity
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

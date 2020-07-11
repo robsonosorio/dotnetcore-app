@@ -7,7 +7,7 @@ namespace cursoMVC.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Categorias",
+                name: "Categoria",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -16,14 +16,14 @@ namespace cursoMVC.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Categorias", x => x.Id);
+                    table.PrimaryKey("PK_Categoria", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Categorias");
+                name: "Categoria");
         }
     }
 }
