@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursoMVC", "cursoMVC\cursoMVC.csproj", "{3409AAC6-8430-4417-BF63-B7C52D4D8CA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cursoMVC", "cursoMVC\cursoMVC.csproj", "{3409AAC6-8430-4417-BF63-B7C52D4D8CA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cursoAPI", "cursoAPI\cursoAPI.csproj", "{F4F00B10-E992-4AC8-B0CF-5DE28AA6F6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursoTest", "cursoTest\cursoTest.csproj", "{1D824CE1-B024-458C-8F4B-1643C51C953A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3409AAC6-8430-4417-BF63-B7C52D4D8CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3409AAC6-8430-4417-BF63-B7C52D4D8CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3409AAC6-8430-4417-BF63-B7C52D4D8CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F00B10-E992-4AC8-B0CF-5DE28AA6F6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F00B10-E992-4AC8-B0CF-5DE28AA6F6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F00B10-E992-4AC8-B0CF-5DE28AA6F6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F00B10-E992-4AC8-B0CF-5DE28AA6F6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D824CE1-B024-458C-8F4B-1643C51C953A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D824CE1-B024-458C-8F4B-1643C51C953A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D824CE1-B024-458C-8F4B-1643C51C953A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D824CE1-B024-458C-8F4B-1643C51C953A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

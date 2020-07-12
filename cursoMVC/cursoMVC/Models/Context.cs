@@ -18,5 +18,10 @@ namespace cursoMVC.Models
         {
             optionsBuilder.UseSqlServer(connectionString:@"Data Source=DESKTOP-M10J657;Initial Catalog=DigitalInnovationOne;Integrated Security=True");
         }
+
+        public virtual void SetModified(object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
+        }
     }
 }
